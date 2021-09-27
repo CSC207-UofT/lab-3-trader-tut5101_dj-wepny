@@ -97,6 +97,8 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
+                new Motorcycle());
+
                 new Villager(),
                 new Camel(),
                 new Camel(),              
