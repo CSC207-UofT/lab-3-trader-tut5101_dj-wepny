@@ -1,10 +1,10 @@
 /* A class that implements Tradable and Domesticable, mimiking a camel.
  */
-public class Camel implements Domesticatable, Tradable{
+public class Camel2 implements Domesticatable, Tradable{
 
     private static int price;
 
-    public Camel(String type) {
+    public Camel2(String type) {
         if(type.equalsIgnoreCase("expensive")){
             price = 1000000;
         }
