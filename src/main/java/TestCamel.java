@@ -1,6 +1,5 @@
 /*
- * This file contains sample JUnit test cases for Horse.java
- * You should NOT modify this file!
+ * This file contains JUnit test cases for Camel.java
  */
 
 import org.junit.*;
@@ -8,39 +7,39 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 
-public class HorseTest {
-    Horse h;
+public class TestCamel {
+    Camel c;
 
     @Before
     public void setUp() throws Exception {
-        h = new Horse();
+        c = new Camel();
     }
+
 
     @Test(timeout = 50)
     public void TestSound() {
-        assertEquals("Neigh!", h.sound());
+        assertEquals("Nuzz!", c.sound());
     }
-    
+
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(2, h.getMaxSpeed());
+        assertEquals(1, c.getMaxSpeed());
     }
-    
+
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
-        h.upgradeSpeed();
-        assertEquals(2, h.getMaxSpeed());
+        c.upgradeSpeed();
+        assertEquals(2, c.getMaxSpeed());
     }
-    
+
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
-        h.downgradeSpeed();
-        assertEquals(0, h.getMaxSpeed());
+        c.downgradeSpeed();
+        assertEquals(0, c.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(10, h.getPrice());
+        assertEquals(10, c.getPrice());
     }
-
 }
