@@ -98,6 +98,7 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Camel2(""),
+                new CatCat(),
                 new Camel(),
                 new Camel(),
                 new Sheep(),
