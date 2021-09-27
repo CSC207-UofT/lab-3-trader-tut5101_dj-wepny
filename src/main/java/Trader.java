@@ -100,11 +100,13 @@ public class Trader {
                 new Villager(),
                 new Camel(),
                 new Camel(),              
+                new CatCat(),
+                new Camel(),
+                new Camel(),
                 new Sheep(),
                 new Cat(100),
                 new Cat(75),
                 new Cat(130)
-
         );
 
 
