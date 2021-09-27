@@ -15,6 +15,7 @@ public class TestCamel {
         c = new Camel();
     }
 
+
     @Test(timeout = 50)
     public void TestSound() {
         assertEquals("Nuzz!", c.sound());

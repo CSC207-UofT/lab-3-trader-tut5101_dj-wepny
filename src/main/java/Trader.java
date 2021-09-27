@@ -102,6 +102,7 @@ public class Trader {
                 // TODO: Add Tradable objects here!
         );
 
+
         /* Below, we've created two Traders. Their money, inventory, and
          * wishlists are randomly generated (see the constructor above).
          */

@@ -5,6 +5,7 @@
 public class Camel implements Drivable, Domesticatable, Tradable {
     private int maxSpeed;
 
+
     public Camel() {
         this.maxSpeed = 2;
     }
