@@ -10,20 +10,15 @@ public class CatTest {
 
     @Before
     public void setUp() {
-        toby = new Cat(9.8, 150);
+        toby = new Cat(150);
     }
 
-    @Test (timeout = 50)
-    public void testGetRating(){
-        assertEquals(9.8, toby.getRating());
-    }
-
-    @Test (timeout = 50)
+    @Test
     public void testGetPrice(){
         assertEquals(150, toby.getPrice());
     }
 
-    @Test (timeout = 50)
+    @Test
     public void testSound(){
         assertEquals("Meow", toby.sound());
     }

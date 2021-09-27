@@ -3,14 +3,14 @@ public class Cat implements Domesticatable, Tradable{
     /**
         The cat class, creates a cat with a certain rating and relative price..
      */
-    private double rating;
+
     private int price;
 
     /**
        Construct a cat with a rating and a price.
      */
-    public Cat(double rating, int price){
-        this.rating = rating;
+    public Cat(int price){
+
         this.price = price;
 
     }
@@ -28,10 +28,4 @@ public class Cat implements Domesticatable, Tradable{
         return this.price;
     }
 
-    /**
-     * Getter for the rating variable.
-     */
-    public double getRating(){
-        return this.rating;
-    }
 }

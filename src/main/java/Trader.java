@@ -97,9 +97,9 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
-                new Cat(9.8, 100),
-                new Cat(9.9, 75),
-                new Cat(9.7, 130)
+                new Cat(100),
+                new Cat(75),
+                new Cat(130)
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
