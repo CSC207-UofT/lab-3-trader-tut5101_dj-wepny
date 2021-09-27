@@ -96,8 +96,8 @@ public class Trader {
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
-                new Camel("")
+                new Horse(),
+                new Camel(""),
                 new Cat(100),
                 new Cat(75),
                 new Cat(130)
