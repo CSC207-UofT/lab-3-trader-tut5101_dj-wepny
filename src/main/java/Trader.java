@@ -98,10 +98,15 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Villager(),
+                new Camel(),
+                new Camel(),              
+                new Sheep(),
                 new Cat(100),
                 new Cat(75),
                 new Cat(130)
+
         );
+
 
         /* Below, we've created two Traders. Their money, inventory, and
          * wishlists are randomly generated (see the constructor above).
