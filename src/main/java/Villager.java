@@ -1,3 +1,5 @@
+/* A sample class that implements the given interfaces.
+ */
 import java.util.List;
 
 public class Villager implements Tradable, Domesticatable {
