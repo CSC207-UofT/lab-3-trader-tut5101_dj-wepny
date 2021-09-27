@@ -100,6 +100,7 @@ public class Trader {
                 new Villager(),
                 new Camel(),
                 new Camel(),              
+                new Camel2(""),
                 new CatCat(),
                 new Camel(),
                 new Camel(),
