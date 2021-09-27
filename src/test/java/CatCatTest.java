@@ -3,12 +3,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CatTest {
-    Cat c;
+public class CatCatTest {
+    CatCat c;
 
     @Before
     public void setUp() throws Exception {
-        c = new Cat();
+        c = new CatCat();
     }
 
     @Test(timeout = 50)

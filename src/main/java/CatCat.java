@@ -1,8 +1,8 @@
-public class Cat implements Tradable, Domesticatable, Drivable {
+public class CatCat implements Tradable, Domesticatable, Drivable {
 
     private int maxSpeed;
 
-    public Cat() {
+    public CatCat() {
         this.maxSpeed = 1;
     }
 
@@ -16,8 +16,8 @@ public class Cat implements Tradable, Domesticatable, Drivable {
     }
 
     /**
-     * a method!!!!!
-     * @return int
+     * Returns price of Cat.
+     * @return int representing price
      */
     @Override
     public int getPrice() {
