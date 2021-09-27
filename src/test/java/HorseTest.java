@@ -23,7 +23,7 @@ public class HorseTest {
     
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(1, h.getMaxSpeed());
+        assertEquals(2, h.getMaxSpeed());
     }
     
     @Test(timeout = 50)
