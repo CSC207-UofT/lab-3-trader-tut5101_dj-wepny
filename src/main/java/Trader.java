@@ -97,7 +97,6 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
-                // TODO: Add Tradable objects here!
                 new Cat(9.8, 100),
                 new Cat(9.9, 75),
                 new Cat(9.7, 130)
