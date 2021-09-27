@@ -18,7 +18,7 @@ public class MotorcycleTest {
 
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(1, motorcycle.getMaxSpeed());
+        assertEquals(100, motorcycle.getMaxSpeed());
     }
 
     @Test(timeout = 50)

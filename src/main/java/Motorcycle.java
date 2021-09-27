@@ -30,7 +30,6 @@ public class Motorcycle implements Tradable, Drivable{
     /**
      * downgrades the speed of the motorcycle
      *
-     * @return downgrades the speed of the motorcycle
      */
     public void downgradeSpeed(){
         this.maxSpeed = this.maxSpeed - 25;
