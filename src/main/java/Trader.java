@@ -97,15 +97,13 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
-
+                new CatCat(),
                 new Camel(),
                 new Camel(),
-                
                 new Sheep(),
                 new Cat(100),
                 new Cat(75),
                 new Cat(130)
-
         );
 
 
