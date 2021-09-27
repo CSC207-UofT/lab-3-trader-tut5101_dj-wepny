@@ -3,13 +3,13 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 public class CamelTest {
-    Camel cfancy;
-    Camel ccheap;
+    Camel2 cfancy;
+    Camel2 ccheap;
 
     @Before
     public void setUp() throws Exception {
-        cfancy = new Camel("expensive");
-        ccheap = new Camel("cheap");
+        cfancy = new Camel2("expensive");
+        ccheap = new Camel2("cheap");
     }
 
     public void TestGetPrice(){
