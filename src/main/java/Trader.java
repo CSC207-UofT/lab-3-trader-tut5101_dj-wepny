@@ -101,7 +101,6 @@ public class Trader {
                 new Cat(100),
                 new Cat(75),
                 new Cat(130)
-
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
